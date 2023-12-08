@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* 背景图片参数 */
+        #alldiv {
+            width: 1280px;
+            height: 700px;
+            background-image: url("images/back.jpg");
+            position: absolute;
+            background-repeat: no-repeat;
+            margin: auto;
+            /* background-size: 100% 100%; */
+        }
+
+        /* 按钮参数 */
+        .buttons {
+            margin-top: 20px;
+            width: 130px;
+            height: 40px;
+            border-width: 0px;
+            border-radius: 3px;
+            background-color: #2e75d3;
+            color: white;
+            font-size: 17px;
+        }
+
+        a {
+            /* 去除a标签横线 */
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="alldiv">
+            <!-- 导航栏 -->
+            <div id="header" style="height: 80px;background-color: #2e75d3;display: flex;width: 100%;">
+                <div style=""><span
+                        style="color: white;font-size: 20px;font-weight: bold;line-height: 80px;margin-left: 50px;">宋朝</span>
+                </div>
+                <div style="">
+                    <a href="index.html">
+                        <span
+                            style="color: white;font-size: 20px;font-weight: bold;line-height: 80px;margin-left: 600px;">首页</span>
+                    </a>
+                </div>
+                <div style="">
+                    <a href="">
+                        <span
+                            style="color: white;font-size: 20px;font-weight: bold;line-height: 80px;margin-left: 50px;">作品</span>
+                    </a>
+                </div>
+                <div style="">
+                    <a href="">
+                        <span
+                            style="color: white;font-size: 20px;font-weight: bold;line-height: 80px;margin-left: 50px;">成就</span>
+                    </a>
+                </div>
+                <div style="">
+                    <a href="">
+                        <span
+                            style="color: white;font-size: 20px;font-weight: bold;line-height: 80px;margin-left: 50px;">生平经历</span>
+                    </a>
+                </div>
+            </div>
+            <!-- 头像 -->
+            <div id="" style="width: 300px;height: 480px;margin: auto;margin-top: 100px;">
+                <!-- 头像图片 -->
+                <div style="width: 300px;height: 300px;border-radius: 50%;">
+                    <img src="images/su.jpg" alt="" width="300" height="300" style="border-radius: 50%;">
+                </div>
+                <!-- 下方文字 -->
+                <div style="width: 300px;height: 150px;">
+                    <div style="width: 300px;height: 40px;">
+                        <span
+                            style="color: white;text-align: center;margin-left: 35%;line-height: 40px;font-size: 30px;font-weight: bold;">苏轼</span>
+                    </div>
+                    <div style="width: 300px;height: 40px;">
+                        <span
+                            style="color: white;text-align: center;margin-left: 25%;line-height: 40px;font-size: 30px;font-weight: bold;">东坡居士</span>
+                    </div>
+                    <!-- 按钮 -->
+                    <div style="width: 300px;height: 70px;">
+                        <button class="buttons">好友</button>
+                        <button class="buttons" style="margin-left: 35px;">座右铭</button>
+                    </div>
+                </div>
+            </div>
+
+            <div style="border:1px solid red;width: 1280px;height: 400px;background-color: gainsboro;display: flex;">
+                <div style="width: 30%;height: 400px;">
+                    <div style="width: 60%;height: 50px;margin-top: 20px;line-height: 50px;margin-left: 30%;">
+                        <span style="font-size: 30px;">姓名:</span><span style="font-size: 30px;">苏轼</span>
+                    </div>
+                    <div style="width: 60%;height: 50px;margin-top: 10px;line-height: 50px;margin-left: 30%;">
+                        <span style="font-size: 30px;">性别:</span><span style="font-size: 30px;">男</span>
+                    </div>
+                    <div style="width: 60%;height: 50px;margin-top: 10px;line-height: 50px;margin-left: 30%;">
+                        <span style="font-size: 30px;">爱好:</span><span style="font-size: 30px;">吃喝玩乐</span>
+                    </div>
+                    <div style="width: 60%;height: 50px;margin-top: 10px;line-height: 50px;margin-left: 30%;">
+                        <span style="font-size: 30px;">籍贯:</span><span style="font-size: 30px;">河北</span>
+                    </div>
+                    <div style="width: 60%;height: 50px;margin-top: 10px;line-height: 50px;margin-left: 30%;">
+                        <span style="font-size: 30px;">职业:</span><span style="font-size: 30px;">美食家、诗人</span>
+                    </div>
+                </div>
+                <div style="width: 68%;height: 400px;">
+                    <div
+                        style="width: 70%;height: 40px;margin: auto;line-height: 40px;text-align:center;margin-top: 20px;">
+                        <span style="font-size: 35px;font-weight: bold;">人物简介</span>
+                    </div>
+                    <div
+                        style="width: 70%;height: 300px;margin: auto;line-height: 40px;text-align:center;margin-top: 20px;border: 1px solid gray;">
+                        <span>
+                            苏轼是北宋中期文坛领袖，在诗、词、文、书、画等方面取得很高成就。其诗题材广阔，清新豪健，善用夸张比喻，独具风格，与黄庭坚并称“苏黄”；其词开豪放一派，与辛弃疾同是豪放派代表，并称“苏辛”；
+                            其文著述宏富，纵横恣肆，豪放自如，与欧阳修并称“欧苏”，与韩愈、柳宗元、欧阳修、苏洵、苏辙、王安石、曾巩合称“唐宋八大家”；善书法，与黄庭坚、米芾、蔡襄合称“宋四家”；擅长文人画，尤擅墨竹、怪石、枯木等。
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

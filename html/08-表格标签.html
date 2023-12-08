@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--table 包含 tr,tr包含td-->
+    <table border="1" width="500" heigth="400">
+        <caption><strong>学生成绩单</strong></caption>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>成绩</th>
+                <th>评语</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>一</td>
+                <td rowspan="2">100</td>
+                <td>好</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td>二</td>
+            <td>不好</td>
+        </tr>
+        <tbody>
+            <tr>
+                <td>三</td>
+                <td>还行</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>总结</td>
+                <td colspan="2">继续加油</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
